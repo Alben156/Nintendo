@@ -151,6 +151,7 @@
     transition: all .3s;
     background-color: #414548;
     color: hsl(356, 74%, 49%);
+    border-color: hsl(356, 74%, 49%);
     border-style: outset;
     border-width: 4.5px;
     border-radius: 10px;
@@ -163,12 +164,15 @@
   }
   
   .img_deg {
+    top: 1000;
     float: right;
     width: 35%;
     height: 100%;
     border-width: 2px;
     border-radius: 20px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.35);
+    position: relative;
+    
   }
   
   .img_deg:hover {
@@ -177,12 +181,14 @@
   }
   
   .img_deg2 {
+    padding-top: 0%;
     float: right;
     width: 35%;
     height: 100%;
     border-width: 2px;
     border-radius: 20px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.35);
+    
   }
   
   .img_deg2:hover {
@@ -271,4 +277,5 @@
     height: 2px;
     border: none;
     background: #414548;
- }   
+ }  
+ 
