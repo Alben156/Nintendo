@@ -10,7 +10,6 @@
     
   }
  
- 
   .header {
     border-style: outset;
     width: 80%
@@ -155,7 +154,7 @@
     border-style: outset;
     border-width: 4.5px;
     border-radius: 10px;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.35);
+    box-shadow: .7px 3.5px 3px rgba(10, 10, 10, 0.34);
   }
   
   body {
@@ -170,7 +169,7 @@
     height: 100%;
     border-width: 2px;
     border-radius: 20px;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.35);
+    box-shadow: 5px 4px 1px rgba(10, 10, 10, 0.34);
     position: relative;
     
   }
@@ -187,8 +186,7 @@
     height: 100%;
     border-width: 2px;
     border-radius: 20px;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.35);
-    
+    box-shadow: 5px 4px 1px rgba(10, 10, 10, 0.34);
   }
   
   .img_deg2:hover {
